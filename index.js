@@ -79,6 +79,7 @@ console.log("C) El nombre de cada pizza con su respectivo precio.");
 pizzas.forEach((pizza) => {
   console.log("Pizza:",pizza.nombre);
   console.log("Precio:",pizza.precio);
+  console.log("------------------------------");
 })
 
 console.log("------------------------------------------------------------------------");
