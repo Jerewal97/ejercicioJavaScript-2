@@ -80,7 +80,6 @@ pizzas.forEach((pizza) => {
   console.log("------------------------------");
   console.log("Pizza:",pizza.nombre);
   console.log("Precio:",pizza.precio);
-  console.log("------------------------------");
 })
 
 console.log("------------------------------------------------------------------------");
