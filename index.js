@@ -93,7 +93,8 @@ tiene una propiedad "ingredientes" cuyo valor es un array con ingredientes.
 console.log("D) Recorrer todos los ingredientes de cada pizza.");
 
 pizzas.forEach( (pizza) => {
-  console.log("* La", pizza.nombre, "tiene los siguientes ingredientes.");
+  console.log("------------------------------");
+  console.log("La", pizza.nombre, "tiene los siguientes ingredientes.");
   console.log("Ingredientes:");
 
   pizza.ingredientes.forEach( (ingrediente) => {
