@@ -94,8 +94,7 @@ console.log("D) Recorrer todos los ingredientes de cada pizza.");
 
 pizzas.forEach( (pizza) => {
   console.log("------------------------------");
-  console.log("La", pizza.nombre, "tiene los siguientes ingredientes.");
-  console.log("Ingredientes:");
+  console.log("La", pizza.nombre, "tiene los siguientes ingredientes:");
 
   pizza.ingredientes.forEach( (ingrediente) => {
   console.log(".", ingrediente);
